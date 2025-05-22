@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="form-box">
+            <h1>Sign Up</h1>
+            <form action="signup.php" method="post">
+                <div class="input-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="full_name" placeholder="Enter your full name" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+
+                <div class="input-group">
+                    <label for="dept">Department</label>
+                    <input type="text" id="dept" name="dept" placeholder="Enter your Department" required>
+                </div>
+                <div class="input-group">
+                    <label for="reg">DU Registration No</label>
+                    <input type="text" id="reg" name="reg" placeholder="Enter your reg no" required>
+                </div>
+
+
+
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+                <div class="input-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" name="confirm_password" placeholder="Confirm your password" required>
+                </div>
+                <div class="input-group">
+                    <button type="submit" class="btn">Sign Up</button>
+                </div>
+
+            </form>
+            <p class="switch-page">Already have an account? <a href="login.html">Login</a></p>
+        </div>
+    </div>
+</body>
+</html>
